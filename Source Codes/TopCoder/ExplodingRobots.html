@@ -1,0 +1,39 @@
+<html><body bgcolor="#000000" text="#ffffff"><table><tr><td colspan="2"><h3>Problem Statement</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><p>
+You have two robots.
+Currently, the robots are standing on two different points on an infinite two-dimensional plane.
+You are given the ints <b>x1</b>, <b>y1</b>, <b>x2</b>, and <b>y2</b>.
+These are the initial coordinates of both robots: one is located at (<b>x1</b>,<b>y1</b>), the other one is at (<b>x2</b>,<b>y2</b>).
+</p>
+
+<p>
+The robots know four instructions: U, D, L, and R.
+These represent moving 1 unit up, down, left, and right.
+More formally, U increases the robot's y coordinate by 1, D decreases the y coordinate by 1, L decreases the x coordinate by 1, and R increases the x coordinate by 1.
+</p>
+
+<p>
+You are going to send both robots the same sequence of instructions at the same time.
+This sequence of instructions is given in the string <b>instructions</b>.
+</p>
+
+<p>
+Both robots are going to execute this sequence of instructions.
+They will spend exactly one second executing each instruction.
+Unfortunately, your robots are a bit buggy.
+It is possible that they will ignore some instructions and spend the corresponding seconds just standing in place.
+Each robot has its own bugs and therefore the two robots may ignore different subsets of instructions.
+(It is possible that a robot will ignore all instructions, and it is also possible that a robot will execute all instructions it was given.)
+</p>
+
+<p>
+The robots will explode if they ever occupy the same point at the same time.
+</p>
+
+<p>
+Return the string "Explosion" if it is possible that your two robots will explode.
+Otherwise, return "Safe".
+</p></td></tr><tr><td colspan="2"><h3>Definition</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Class:</td><td>ExplodingRobots</td></tr><tr><td>Method:</td><td>canExplode</td></tr><tr><td>Parameters:</td><td>int, int, int, int, string</td></tr><tr><td>Returns:</td><td>string</td></tr><tr><td>Method signature:</td><td>string canExplode(int x1, int y1, int x2, int y2, string instructions)</td></tr><tr><td colspan="2">(be sure your method is public)</td></tr></table></td></tr><tr><td colspan="2"><h3>Limits</h3></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td>Time limit (s):</td><td>2.000</td></tr><tr><td>Memory limit (MB):</td><td>256</td></tr><tr><td>Stack limit (MB):</td><td>256</td></tr></table></td></tr><tr><td colspan="2"><h3>Constraints</h3></td></tr><tr><td align="center" valign="top">-</td><td><b>x1,y1,x2,y2</b> will be between -25 and 25, inclusive.</td></tr><tr><td align="center" valign="top">-</td><td>(<b>x1,y1</b>) will be different from (<b>x2,y2</b>).</td></tr><tr><td align="center" valign="top">-</td><td><b>instructions</b> will have between 1 and 50 characters, inclusive.</td></tr><tr><td align="center" valign="top">-</td><td>Each character of <b>instructions</b> will be 'U', 'R', 'L', or 'D'.</td></tr><tr><td colspan="2"><h3>Examples</h3></td></tr><tr><td align="center" nowrap="true">0)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>1</pre></td></tr><tr><td><pre>0</pre></td></tr><tr><td><pre>2</pre></td></tr><tr><td><pre>0</pre></td></tr><tr><td><pre>&quot;L&quot;</pre></td></tr></table></td></tr><tr><td><pre>Returns: &quot;Explosion&quot;</pre></td></tr><tr><td><table><tr><td colspan="2">We have two robots.
+One starts at coordinates (1,0), the other at (2,0).
+We send them a command to move left.
+If the first robot ignores it and the second robot moves left, they will collide and explode.</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">1)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>1</pre></td></tr><tr><td><pre>0</pre></td></tr><tr><td><pre>2</pre></td></tr><tr><td><pre>0</pre></td></tr><tr><td><pre>&quot;U&quot;</pre></td></tr></table></td></tr><tr><td><pre>Returns: &quot;Safe&quot;</pre></td></tr><tr><td><table><tr><td colspan="2">We have the same starting positions as in Example 0, but this time we send a command to go up.
+Regardless of whether they ignore it or perform it, they cannot collide.</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">2)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>1</pre></td></tr><tr><td><pre>0</pre></td></tr><tr><td><pre>2</pre></td></tr><tr><td><pre>0</pre></td></tr><tr><td><pre>&quot;UL&quot;</pre></td></tr></table></td></tr><tr><td><pre>Returns: &quot;Explosion&quot;</pre></td></tr><tr><td><table><tr><td colspan="2">In this case, one possible scenario where the robots collide is when the first robot performs the instructions "U", and the second robot performs the instructions "UL".</td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">3)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>3</pre></td></tr><tr><td><pre>3</pre></td></tr><tr><td><pre>5</pre></td></tr><tr><td><pre>5</pre></td></tr><tr><td><pre>&quot;LURLL&quot;</pre></td></tr></table></td></tr><tr><td><pre>Returns: &quot;Safe&quot;</pre></td></tr><tr><td><table><tr><td colspan="2"></td></tr></table></td></tr></table></td></tr><tr><td align="center" nowrap="true">4)</td><td></td></tr><tr><td>&#160;&#160;&#160;&#160;</td><td><table><tr><td><table><tr><td><pre>10</pre></td></tr><tr><td><pre>5</pre></td></tr><tr><td><pre>-9</pre></td></tr><tr><td><pre>-10</pre></td></tr><tr><td><pre>&quot;LULULULLLUULRULULULULULULLULULLULD&quot;</pre></td></tr></table></td></tr><tr><td><pre>Returns: &quot;Explosion&quot;</pre></td></tr><tr><td><table><tr><td colspan="2"></td></tr></table></td></tr></table></td></tr></table><p>This problem statement is the exclusive and proprietary property of TopCoder, Inc.  Any unauthorized use or reproduction of this information without the prior written consent of TopCoder, Inc. is strictly prohibited.  (c)2003, TopCoder, Inc.  All rights reserved.  </p></body></html>
