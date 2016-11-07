@@ -1,0 +1,2929 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        http://192.168.1.113/test/index.php/attacks/xss_stored ::
+        Arachni Web Application Security Report
+    </title>
+
+    <!--
+        Design by Tasos "Zapotek" Laskos <tasos.laskos@arachni-scanner.com>
+        Copyright (c) Arachni 2011-2015.
+     -->
+
+    
+        <script type="text/javascript" src="js/lib/jquery.min.js"></script>
+    
+        <script type="text/javascript" src="js/lib/bootstrap.min.js"></script>
+    
+        <script type="text/javascript" src="js/lib/d3.min.js"></script>
+    
+        <script type="text/javascript" src="js/lib/c3.min.js"></script>
+    
+        <script type="text/javascript" src="js/helpers.js"></script>
+    
+        <script type="text/javascript" src="js/init.js"></script>
+    
+        <script type="text/javascript" src="js/charts.js"></script>
+    
+        <script type="text/javascript" src="js/configuration.js"></script>
+    
+
+    
+        <link href="css/lib/font-awesome.min.css" type="text/css" rel="stylesheet" />
+    
+        <link href="css/lib/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    
+        <link href="css/lib/c3.css" type="text/css" rel="stylesheet" />
+    
+        <link href="css/main.css" type="text/css" rel="stylesheet" />
+    
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-default" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="http://www.arachni-scanner.com">
+            Arachni v2.0dev
+        </a>
+
+        <div class="navbar-header">
+            <ul class="nav navbar-nav">
+                <li class="dropdown">
+                    <a href="#!/summary">
+                        Summary
+
+                        
+                        <b class="fa fa-caret-down"></b>
+                        
+                    </a>
+
+                    
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href="#!/summary/charts">
+                                Charts
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#!/summary/issues">
+                                Issues
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </li>
+
+                
+                <li class="dropdown">
+                    <a href="#!/issues" class="dropdown-toggle">
+                        Issues
+
+                        <span class="badge">
+                            2
+                        </span>
+
+                        <b class="fa fa-caret-down"></b>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        
+                            <li class="dropdown">
+                                <a href="#!/issues/trusted">
+                                    Trusted
+
+                                    <span class="badge">
+                                        2
+                                    </span>
+
+                                    <b class="fa fa-caret-right"></b>
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    
+                                        <li class="dropdown">
+                                            <a href="#!/issues/trusted/severity/high">
+                                                High
+
+                                                <span class="badge">
+                                                    2
+                                                </span>
+
+                                                <b class="fa fa-caret-right"></b>
+                                            </a>
+
+                                            <ul class="dropdown-menu">
+                                                
+                                                    <li class="dropdown">
+                                                        <a href="#!/issues/trusted/severity/high/xss">
+                                                            Cross-Site Scripting (XSS)
+
+                                                            <span class="badge">
+                                                                2
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    
+                                </ul>
+                            </li>
+                        
+                    </ul>
+                </li>
+                
+
+                
+                <li class="dropdown">
+                    <a href="#!/plugins">
+                        Plugin results
+
+                        <span class="badge">1</span>
+                        <b class="fa fa-caret-down"></b>
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        
+                            <li>
+                                <a href="#!/plugins/healthmap">
+                                    Health map
+                                </a>
+                            </li>
+                        
+                    </ul>
+                </li>
+                
+
+                <li>
+                    <a href="#!/sitemap">
+                        Sitemap
+
+                        <span class="badge">1</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!/configuration">Configuration</a>
+                </li>
+            </ul>
+        </div>
+
+        <p class="navbar-text navbar-right">
+            (Found a false positive?
+
+            <a class="navbar-link" href="https://github.com/Arachni/arachni/issues">
+                Please let us know.</a>)
+        </p>
+    </div>
+</nav>
+
+
+<div class="container-fluid">
+    <div class="page-header">
+        <h1>
+            http://192.168.1.113/test/index.php/attacks/xss_stored
+            <small>Generated on 2016-10-18 02:40:52 +0600</small>
+        </h1>
+    </div>
+
+    <div class="tab-content">
+        <div class="tab-pane active" id="summary">
+            <h2>Summary</h2>
+
+<div id="summary-tabs">
+    
+        <ul class="nav nav-tabs">
+            <li class="active">
+                <a href="#!/summary/charts">Charts</a>
+            </li>
+            <li>
+                <a href="#!/summary/issues">
+                    Issues
+
+                    <span class="badge">
+                        2
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="#!/summary/owasp_top_10">OWASP Top 10</a>
+            </li>
+        </ul>
+
+        <div class="tab-content">
+            <div class="tab-pane active" id="summary-charts">
+                <div class="row">
+    <div id="bars">
+        <div class="col-md-12">
+            <h3>
+                Issues
+
+                <small>
+                    by type, trust, and severity
+                </small>
+            </h3>
+
+            <p class="text-muted">
+                (Click on the bars or line points for details on the relevant issues.)
+            </p>
+
+            <div id='chart-issues'>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div id="pies">
+        <div class="col-md-4">
+            <h3>
+                Severities
+
+                <small>of issues based on possible impact</small>
+            </h3>
+
+            <p class="text-muted">
+                (Click to see relevant <a href="#!/summary/issues/trusted">Trusted</a> issues.)
+            </p>
+
+            <div id="chart-severities">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <h3>
+                Elements
+                <small>with issues, by type</small>
+            </h3>
+
+            <p>&nbsp;</p>
+            <div id="chart-elements">
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <h3>
+                Trust
+                <small>
+                    evaluation
+                    (<a href="#!/summary/issues/trusted">Trusted</a> vs.
+                    <a href="#!/summary/issues/untrusted">Untrusted</a>) of
+                    issues
+                </small>
+            </h3>
+
+            <p class="text-muted">(Click to see relevant issues.)</p>
+
+            <div id="chart-trust">
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div>
+
+            <div class="tab-pane" id="summary-issues">
+                
+    
+
+    <h3>
+        <a
+            id="summary-issues-trusted"
+            href="#!/summary/issues/trusted"
+        >
+
+            Trusted
+
+            <span class="badge">
+                2
+            </span>
+        </a>
+    </h3>
+
+    
+
+        <h4>
+            <a
+                id="summary-issues-trusted-severity-high"
+                href="#!/summary/issues/trusted/severity/high"
+            >
+                High severity
+
+                <span class="badge">
+                    2
+                </span>
+            </a>
+        </h4>
+
+        <div class="row">
+            
+    <div class="col-md-6">
+        <div class="issue-summary">
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <strong>
+                        <a
+                        id="summary-issues-trusted-severity-high-xss"
+                        href="#!/summary/issues/trusted/severity/high/xss"
+                        >
+                            Cross-Site Scripting (XSS)
+
+                            <span class="badge">
+                                2
+                            </span>
+                        </a>
+                    </strong>
+                </div>
+
+                <div class="panel-body">
+                    
+                        <div class="markdown">
+                            
+<p>Client-side scripts are used extensively by modern web applications.
+They perform from simple functions (such as the formatting of text) up to full
+manipulation of client-side data and Operating System interaction.</p>
+
+<p>Cross Site Scripting (XSS) allows clients to inject scripts into a request and
+have the server return the script to the client in the response. This occurs
+because the application is taking untrusted data (in this example, from the client)
+and reusing it without performing any validation or sanitisation.</p>
+
+<p>If the injected script is returned immediately this is known as reflected XSS.
+If the injected script is stored by the server and returned to any client visiting
+the affected page, then this is known as persistent XSS (also stored XSS).</p>
+
+<p>Arachni has discovered that it is possible to insert script content directly into
+HTML element content.</p>
+
+                        </div>
+                    
+
+                    <table class="table table-condensed">
+                        <tr>
+                            <th></th>
+                            <th>
+                                Vector type
+                            </th>
+
+                            
+                                <th>
+                                    Input name
+                                </th>
+                            
+
+                            
+                                <th>
+                                    HTTP method
+                                </th>
+                            
+
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+
+                        
+                            <tr>
+                                <td>
+                                    <a class="btn btn-xs btn-info"
+                                       href="#!/issues/trusted/severity/high/xss/1334686185"
+                                       title="Inspect issue"
+                                    >
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code>form</code>
+                                </td>
+
+                                
+                                    <td>
+                                        <code>mtxMessage</code>
+                                    </td>
+                                
+
+                                
+                                    <td>
+                                        <code>POST</code>
+                                    </td>
+                                
+
+                                <td>
+                                    <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                                        http://192.168.1.113/test/index.php/attacks/xss_stored
+                                    </a>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <a class="btn btn-xs btn-info"
+                                       href="#!/issues/trusted/severity/high/xss/3786794387"
+                                       title="Inspect issue"
+                                    >
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code>form</code>
+                                </td>
+
+                                
+                                    <td>
+                                        <code>txtName</code>
+                                    </td>
+                                
+
+                                
+                                    <td>
+                                        <code>POST</code>
+                                    </td>
+                                
+
+                                <td>
+                                    <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                                        http://192.168.1.113/test/index.php/attacks/xss_stored
+                                    </a>
+                                </td>
+                            </tr>
+                        
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        </div>
+
+        <hr/>
+    
+
+
+            </div>
+
+            <div class="tab-pane" id="summary-owasp_top_10">
+                <p>
+    (<a href="https://www.owasp.org/index.php/Top_10_2013-Top_10">About the OWASP Top 10 list</a>)
+</p>
+
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3>
+                <a id="summary-owasp_top_10-A3"
+                    href="#!/summary/owasp_top_10/A3">
+                    A3-Cross-Site Scripting (XSS)
+
+                    <span class="badge">
+                        2
+                    </span>
+                </a>
+            </h3>
+
+            <blockquote>
+                
+XSS flaws occur whenever an application takes untrusted data and sends it to a
+web browser without proper validation or escaping. XSS allows attackers to
+execute scripts in the victim’s browser which can hijack user sessions, deface
+web sites, or redirect the user to malicious sites.
+
+
+                <small><a href="https://www.owasp.org/index.php/Top_10_2013-A3-Cross-Site_Scripting_(XSS)">OWASP</a></small>
+            </blockquote>
+        </div>
+
+        
+            
+    <div class="col-md-6">
+        <div class="issue-summary">
+
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <strong>
+                        <a
+                        id="summary-issues--severity-high-xss"
+                        href="#!/summary/issues//severity/high/xss"
+                        >
+                            Cross-Site Scripting (XSS)
+
+                            <span class="badge">
+                                2
+                            </span>
+                        </a>
+                    </strong>
+                </div>
+
+                <div class="panel-body">
+                    
+                        <div class="markdown">
+                            
+<p>Client-side scripts are used extensively by modern web applications.
+They perform from simple functions (such as the formatting of text) up to full
+manipulation of client-side data and Operating System interaction.</p>
+
+<p>Cross Site Scripting (XSS) allows clients to inject scripts into a request and
+have the server return the script to the client in the response. This occurs
+because the application is taking untrusted data (in this example, from the client)
+and reusing it without performing any validation or sanitisation.</p>
+
+<p>If the injected script is returned immediately this is known as reflected XSS.
+If the injected script is stored by the server and returned to any client visiting
+the affected page, then this is known as persistent XSS (also stored XSS).</p>
+
+<p>Arachni has discovered that it is possible to insert script content directly into
+HTML element content.</p>
+
+                        </div>
+                    
+
+                    <table class="table table-condensed">
+                        <tr>
+                            <th></th>
+                            <th>
+                                Vector type
+                            </th>
+
+                            
+                                <th>
+                                    Input name
+                                </th>
+                            
+
+                            
+                                <th>
+                                    HTTP method
+                                </th>
+                            
+
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+
+                        
+                            <tr>
+                                <td>
+                                    <a class="btn btn-xs btn-info"
+                                       href="#!/issues/trusted/severity/high/xss/1334686185"
+                                       title="Inspect issue"
+                                    >
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code>form</code>
+                                </td>
+
+                                
+                                    <td>
+                                        <code>mtxMessage</code>
+                                    </td>
+                                
+
+                                
+                                    <td>
+                                        <code>POST</code>
+                                    </td>
+                                
+
+                                <td>
+                                    <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                                        http://192.168.1.113/test/index.php/attacks/xss_stored
+                                    </a>
+                                </td>
+                            </tr>
+                        
+                            <tr>
+                                <td>
+                                    <a class="btn btn-xs btn-info"
+                                       href="#!/issues/trusted/severity/high/xss/3786794387"
+                                       title="Inspect issue"
+                                    >
+                                        <i class="fa fa-eye"></i>
+                                    </a>
+                                </td>
+                                <td>
+                                    <code>form</code>
+                                </td>
+
+                                
+                                    <td>
+                                        <code>txtName</code>
+                                    </td>
+                                
+
+                                
+                                    <td>
+                                        <code>POST</code>
+                                    </td>
+                                
+
+                                <td>
+                                    <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                                        http://192.168.1.113/test/index.php/attacks/xss_stored
+                                    </a>
+                                </td>
+                            </tr>
+                        
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+        
+    </div>
+
+
+            </div>
+        </div>
+    
+</div>
+
+        </div>
+
+        <div class="tab-pane" id="configuration">
+            <h2>
+    Configuration
+
+    <a id="configuration-download" class="btn btn-sm btn-primary">
+        Download
+    </a>
+</h2>
+
+<dl class="dl-horizontal">
+    <dt>Version</dt>
+    <dd>2.0dev</dd>
+    <dt>Seed</dt>
+    <dd>f3c25f0c85a4531ce3162103ec1c4a4f</dd>
+    <dt>Audit started on</dt>
+    <dd>2016-10-18 02:40:20 +0600</dd>
+    <dt>Audit finished on</dt>
+    <dd>2016-10-18 02:40:41 +0600</dd>
+    <dt>Runtime</dt>
+    <dd>00:00:21</dd>
+</dl>
+
+<h3>
+    <a
+    id="configuration-general"
+    href="#!/configuration/general"
+    >
+        General
+    </a>
+</h3>
+
+<dl class="dl-horizontal">
+    <dt>URL</dt>
+    <dd>
+        <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+            http://192.168.1.113/test/index.php/attacks/xss_stored
+        </a>
+    </dd>
+
+    
+        <dt>Checks</dt>
+        <dd>
+            <code>xss</code>, <code>xss_dom</code>, <code>xss_dom_script_context</code>, <code>xss_event</code>, <code>xss_path</code>, <code>xss_script_context</code>, <code>xss_tag</code>
+        </dd>
+    
+
+    
+        <dt>Plugins</dt>
+        <dd>
+            <dl class="dl-horizontal">
+    
+        <dt>
+            <code>autothrottle</code>
+        </dt>
+        <dd>
+            <code>{}</code>
+        </dd>
+    
+        <dt>
+            <code>discovery</code>
+        </dt>
+        <dd>
+            <code>{}</code>
+        </dd>
+    
+        <dt>
+            <code>healthmap</code>
+        </dt>
+        <dd>
+            <code>{}</code>
+        </dd>
+    
+        <dt>
+            <code>timing_attacks</code>
+        </dt>
+        <dd>
+            <code>{}</code>
+        </dd>
+    
+        <dt>
+            <code>uniformity</code>
+        </dt>
+        <dd>
+            <code>{}</code>
+        </dd>
+    
+</dl>
+
+        </dd>
+    
+
+    
+</dl>
+
+
+    <hr/>
+
+    <h3>
+        <a
+            id="configuration-datastore"
+            href="#!/configuration/datastore"
+        >
+            Datastore
+        </a>
+    </h3>
+
+    <table class="table table-condensed">
+    <col width="15%"/>
+
+    
+        <tr>
+            <th>
+                <code>&quot;token&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;2f9948aa1b4ec7db4ed18eb432cdf87d&quot;</code>
+                
+            </td>
+        </tr>
+    
+</table>
+
+
+
+    <hr/>
+
+    <h3>
+        <a
+            id="configuration-browser_cluster"
+            href="#!/configuration/browser_cluster"
+        >
+            Browser cluster
+        </a>
+    </h3>
+
+    <table class="table table-condensed">
+    <col width="15%"/>
+
+    
+        <tr>
+            <th>
+                <code>&quot;local_storage&quot;</code>
+            </th>
+            <td>
+                
+                    
+                        <code>{}</code>
+                    
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;wait_for_elements&quot;</code>
+            </th>
+            <td>
+                
+                    
+                        <code>{}</code>
+                    
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;pool_size&quot;</code>
+            </th>
+            <td>
+                
+                    <code>6</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;job_timeout&quot;</code>
+            </th>
+            <td>
+                
+                    <code>10</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;worker_time_to_live&quot;</code>
+            </th>
+            <td>
+                
+                    <code>100</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;ignore_images&quot;</code>
+            </th>
+            <td>
+                
+                    <code>false</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;screen_width&quot;</code>
+            </th>
+            <td>
+                
+                    <code>1600</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;screen_height&quot;</code>
+            </th>
+            <td>
+                
+                    <code>1200</code>
+                
+            </td>
+        </tr>
+    
+</table>
+
+
+
+    <hr/>
+
+    <h3>
+        <a
+            id="configuration-scope"
+            href="#!/configuration/scope"
+        >
+            Scope
+        </a>
+    </h3>
+
+    <table class="table table-condensed">
+    <col width="15%"/>
+
+    
+        <tr>
+            <th>
+                <code>&quot;redundant_path_patterns&quot;</code>
+            </th>
+            <td>
+                
+                    
+                        <code>{}</code>
+                    
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;dom_depth_limit&quot;</code>
+            </th>
+            <td>
+                
+                    <code>5</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;exclude_file_extensions&quot;</code>
+            </th>
+            <td>
+                
+                    <code>[&quot;[]&quot;]</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;exclude_path_patterns&quot;</code>
+            </th>
+            <td>
+                
+                    <code>[]</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;exclude_content_patterns&quot;</code>
+            </th>
+            <td>
+                
+                    <code>[]</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;include_path_patterns&quot;</code>
+            </th>
+            <td>
+                
+                    <code>[]</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;restrict_paths&quot;</code>
+            </th>
+            <td>
+                
+                    <code>[]</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;extend_paths&quot;</code>
+            </th>
+            <td>
+                
+                    <code>[]</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;url_rewrites&quot;</code>
+            </th>
+            <td>
+                
+                    
+                        <code>{}</code>
+                    
+                
+            </td>
+        </tr>
+    
+</table>
+
+
+
+    <hr/>
+
+    <h3>
+        <a
+            id="configuration-http"
+            href="#!/configuration/http"
+        >
+            Http
+        </a>
+    </h3>
+
+    <table class="table table-condensed">
+    <col width="15%"/>
+
+    
+        <tr>
+            <th>
+                <code>&quot;user_agent&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;Arachni/v2.0dev&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;request_timeout&quot;</code>
+            </th>
+            <td>
+                
+                    <code>10000</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;request_redirect_limit&quot;</code>
+            </th>
+            <td>
+                
+                    <code>5</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;request_concurrency&quot;</code>
+            </th>
+            <td>
+                
+                    <code>20</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;request_queue_size&quot;</code>
+            </th>
+            <td>
+                
+                    <code>100</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;request_headers&quot;</code>
+            </th>
+            <td>
+                
+                    
+                        <code>{}</code>
+                    
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;response_max_size&quot;</code>
+            </th>
+            <td>
+                
+                    <code>500000</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;cookies&quot;</code>
+            </th>
+            <td>
+                
+                    
+                        <code>{}</code>
+                    
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;authentication_type&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;auto&quot;</code>
+                
+            </td>
+        </tr>
+    
+</table>
+
+
+
+    <hr/>
+
+    <h3>
+        <a
+            id="configuration-audit"
+            href="#!/configuration/audit"
+        >
+            Audit
+        </a>
+    </h3>
+
+    <table class="table table-condensed">
+    <col width="15%"/>
+
+    
+        <tr>
+            <th>
+                <code>&quot;parameter_values&quot;</code>
+            </th>
+            <td>
+                
+                    <code>true</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;exclude_vector_patterns&quot;</code>
+            </th>
+            <td>
+                
+                    <code>[]</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;include_vector_patterns&quot;</code>
+            </th>
+            <td>
+                
+                    <code>[]</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;link_templates&quot;</code>
+            </th>
+            <td>
+                
+                    <code>[]</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;links&quot;</code>
+            </th>
+            <td>
+                
+                    <code>true</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;forms&quot;</code>
+            </th>
+            <td>
+                
+                    <code>true</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;cookies&quot;</code>
+            </th>
+            <td>
+                
+                    <code>true</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;jsons&quot;</code>
+            </th>
+            <td>
+                
+                    <code>true</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;xmls&quot;</code>
+            </th>
+            <td>
+                
+                    <code>true</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;ui_forms&quot;</code>
+            </th>
+            <td>
+                
+                    <code>true</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;ui_inputs&quot;</code>
+            </th>
+            <td>
+                
+                    <code>true</code>
+                
+            </td>
+        </tr>
+    
+</table>
+
+
+
+    <hr/>
+
+    <h3>
+        <a
+            id="configuration-input"
+            href="#!/configuration/input"
+        >
+            Input
+        </a>
+    </h3>
+
+    <table class="table table-condensed">
+    <col width="15%"/>
+
+    
+        <tr>
+            <th>
+                <code>&quot;values&quot;</code>
+            </th>
+            <td>
+                
+                    
+                        <table class="table table-condensed">
+    <col width="15%"/>
+
+    
+        <tr>
+            <th>
+                <code>&quot;name&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;arachni_name&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;user&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;arachni_user&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;usr&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;arachni_user&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;pass&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;5543!%arachni_secret&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;txt&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;arachni_text&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;num&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;132&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;amount&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;100&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;mail&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;arachni@email.gr&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;account&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;12&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;id&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;1&quot;</code>
+                
+            </td>
+        </tr>
+    
+</table>
+
+                    
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;default_values&quot;</code>
+            </th>
+            <td>
+                
+                    
+                        <table class="table table-condensed">
+    <col width="15%"/>
+
+    
+        <tr>
+            <th>
+                <code>&quot;name&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;arachni_name&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;user&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;arachni_user&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;usr&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;arachni_user&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;pass&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;5543!%arachni_secret&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;txt&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;arachni_text&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;num&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;132&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;amount&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;100&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;mail&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;arachni@email.gr&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;account&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;12&quot;</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;id&quot;</code>
+            </th>
+            <td>
+                
+                    <code>&quot;1&quot;</code>
+                
+            </td>
+        </tr>
+    
+</table>
+
+                    
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;without_defaults&quot;</code>
+            </th>
+            <td>
+                
+                    <code>true</code>
+                
+            </td>
+        </tr>
+    
+        <tr>
+            <th>
+                <code>&quot;force&quot;</code>
+            </th>
+            <td>
+                
+                    <code>false</code>
+                
+            </td>
+        </tr>
+    
+</table>
+
+
+
+
+        </div>
+
+        
+        <div class="tab-pane" id="issues">
+            <h2>Issues</h2>
+
+<ul class="nav nav-tabs">
+    
+    <li
+        class='active'
+    >
+        <a class="tab-trusted" href="#!/issues/trusted" >
+            Trusted
+
+            <span class="badge">
+                2
+            </span>
+        </a>
+    </li>
+    
+</ul>
+
+<div class="tab-content">
+    
+    <div class="tab-pane active" id="issues-trusted">
+        <p class="well">
+            At the time these issues were logged there were no abnormal
+            interferences or anomalous server behavior.<br/>
+            These issues are considered trusted and accurate.
+        </p>
+
+        <div id="issues-trusted-severities-tabs">
+    <ul class="nav nav-tabs">
+
+        
+            <li class="active" >
+                <a class="tab-severity-high"
+                   href="#!/issues/trusted/severity/high">
+                    High
+
+                    <span class="badge">
+                        2
+                    </span>
+                </a>
+            </li>
+        
+    </ul>
+</div>
+
+<div class="tab-content">
+    
+        <div class="tab-pane active"
+             id="issues-trusted-severity-high">
+
+            
+                
+
+                <div class="row">
+                    <div class="col-md-10">
+                        <h3>
+                            <a id="issues-trusted-severity-high-xss"
+                               href="#!/issues/trusted/severity/high/xss"
+                            >
+                                Cross-Site Scripting (XSS)
+                            </a>
+
+                            <span class="badge">
+                                2
+                            </span>
+
+                            <small>
+                                <span class="label label-default">
+                                    xss
+                                </span>
+                            </small>
+                        </h3>
+
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="issue-description markdown">
+                                    
+<p>Client-side scripts are used extensively by modern web applications.
+They perform from simple functions (such as the formatting of text) up to full
+manipulation of client-side data and Operating System interaction.</p>
+
+<p>Cross Site Scripting (XSS) allows clients to inject scripts into a request and
+have the server return the script to the client in the response. This occurs
+because the application is taking untrusted data (in this example, from the client)
+and reusing it without performing any validation or sanitisation.</p>
+
+<p>If the injected script is returned immediately this is known as reflected XSS.
+If the injected script is stored by the server and returned to any client visiting
+the affected page, then this is known as persistent XSS (also stored XSS).</p>
+
+<p>Arachni has discovered that it is possible to insert script content directly into
+HTML element content.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <div class="row">
+
+                            
+
+                            
+                            <div class="col-md-12">
+                                <h4>
+                                    <a id="issues-trusted-severity-high-xss-remedy_guidance"
+                                       href="#!/issues/trusted/severity/high/xss/remedy_guidance"
+                                    >
+                                        Remediation guidance
+                                    </a>
+                                </h4>
+
+                                <div class="issue-remedy_guidance markdown">
+                                    
+<p>To remedy XSS vulnerabilities, it is important to never use untrusted or unfiltered
+data within the code of a HTML page.</p>
+
+<p>Untrusted data can originate not only form the client but potentially a third
+party or previously uploaded file etc.</p>
+
+<p>Filtering of untrusted data typically involves converting special characters to
+their HTML entity encoded counterparts (however, other methods do exist, see references).
+These special characters include:</p>
+
+<ul>
+  <li><code>&amp;</code></li>
+  <li><code>&lt;</code></li>
+  <li><code>&gt;</code></li>
+  <li><code>"</code></li>
+  <li><code>'</code></li>
+  <li><code>/</code></li>
+</ul>
+
+<p>An example of HTML entity encoding is converting <code>&lt;</code> to <code>&amp;lt;</code>.</p>
+
+<p>Although it is possible to filter untrusted input, there are five locations
+within an HTML page where untrusted input (even if it has been filtered) should
+never be placed:</p>
+
+<ol>
+  <li>Directly in a script.</li>
+  <li>Inside an HTML comment.</li>
+  <li>In an attribute name.</li>
+  <li>In a tag name.</li>
+  <li>Directly in CSS.</li>
+</ol>
+
+<p>Each of these locations have their own form of escaping and filtering.</p>
+
+<p><em>Because many browsers attempt to implement XSS protection, any manual verification
+of this finding should be conducted using multiple different browsers and browser
+versions.</em></p>
+
+                                </div>
+                            </div>
+                            
+
+                            
+                        </div>
+                        
+                    </div>
+
+                    
+                    <div class="col-md-2">
+                        <h4>
+                            <a id="issues-trusted-severity-high-xss-references"
+                               href="#!/issues/trusted/severity/high/xss/references"
+                            >
+                                References
+                            </a>
+                        </h4>
+
+                        <hr/>
+
+                        <ul class="list-unstyled">
+                            
+                                <li>
+                                    <a href="http://cwe.mitre.org/data/definitions/79.html">
+                                        CWE-79
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <hr/>
+                                </li>
+                            
+
+                            
+                                <li>
+                                    <a href="http://secunia.com/advisories/9716/"> Secunia</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="http://projects.webappsec.org/w/page/13246920/Cross%20Site%20Scripting"> WASC</a>
+                                </li>
+                            
+                                <li>
+                                    <a href="https://www.owasp.org/index.php/XSS_%28Cross_Site_Scripting%29_Prevention_Cheat_Sheet"> OWASP</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                    
+                </div>
+
+                
+                    <div id="issues-trusted-severity-high-xss-1334686185">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#!/issues/trusted/severity/high/xss/1334686185">
+                            In <code>form</code>
+
+                            
+                                input
+                                <code>mtxMessage</code>
+                            
+
+                            
+                                using
+                                <code>POST</code>
+                            
+                        </a>
+
+                        at
+
+                        <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                            http://192.168.1.113/test/index.php/attacks/xss_stored
+                        </a>
+
+                        pointing to
+                        <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                            http://192.168.1.113/test/index.php/attacks/xss_stored
+                        </a>.
+                    </h4>
+                </div>
+
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            
+
+
+
+
+
+
+
+<table class="table table-condensed table-fixed">
+    <thead>
+    <tr>
+        
+            <th>
+                Injected seed
+
+                <a href="#" rel="tooltip"
+                   title="This seed uncovered the vulnerable vector during the audit.">
+                    <i class="fa fa-info"></i>
+                </a>
+            </th>
+        
+
+        
+
+        
+            <th>
+                Proof
+
+                <a href="#" rel="tooltip"
+                   title="This string was used to verify the existence of the issue.">
+                    <i class="fa fa-info"></i>
+                </a>
+            </th>
+        
+
+    </tr>
+    </thead>
+    <tr>
+
+        
+            <td class="wrap">
+                <pre>()&quot;&amp;%1&#39;-;&lt;xss_f3c25f0c85a4531ce3162103ec1c4a4f/&gt;&#39;</pre>
+            </td>
+        
+
+        
+
+        
+            <td class="wrap">
+                <pre class='code-container'>&lt;xss_f3c25f0c85a4531ce3162103ec1c4a4f/&gt;</pre>
+            </td>
+        
+    </tr>
+</table>
+
+
+                        </div>
+                    </div>
+
+                    <div class="panel-group">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#!/issues/trusted/severity/high/xss/1334686185/vector">
+                    <i class="fa fa-link"></i>
+                </a>
+
+                <a data-toggle="collapse" href="#issues-trusted-severity-high-xss-1334686185-vector">
+                    Vector information
+                </a>
+            </h4>
+        </div>
+        <div id="issues-trusted-severity-high-xss-1334686185-vector" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="code-container"><table class="CodeRay"><tbody><tr><td class="line-numbers"><pre><a href='#!/issues/trusted/severity/high/xss/1334686185/vector/source/0'>0</a>
+<a href='#!/issues/trusted/severity/high/xss/1334686185/vector/source/1'>1</a>
+<a href='#!/issues/trusted/severity/high/xss/1334686185/vector/source/2'>2</a>
+<a href='#!/issues/trusted/severity/high/xss/1334686185/vector/source/3'>3</a>
+<a href='#!/issues/trusted/severity/high/xss/1334686185/vector/source/4'>4</a>
+<a href='#!/issues/trusted/severity/high/xss/1334686185/vector/source/5'>5</a>
+<a href='#!/issues/trusted/severity/high/xss/1334686185/vector/source/6'>6</a>
+<a href='#!/issues/trusted/severity/high/xss/1334686185/vector/source/7'>7</a>
+<a href='#!/issues/trusted/severity/high/xss/1334686185/vector/source/8'>8</a>
+</pre></td><td class="code"><pre><span id='issues-trusted-severity-high-xss-1334686185-vector-source-0'><span style="color:#070;font-weight:bold">&lt;form</span> <span style="color:#b48">method</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">post</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">name</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">guestform</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">onsubmit</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#080;font-weight:bold">return</span> validate_form(<span style="color:#950">this</span>)<span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-1334686185-vector-source-1'>  <span style="color:#070;font-weight:bold">&lt;input</span> <span style="color:#b48">name</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">txtName</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">type</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">text</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">size</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">30</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">maxlength</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">10</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-1334686185-vector-source-2'>  <span style="color:#070;font-weight:bold">&lt;/input&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-1334686185-vector-source-3'>  <span style="color:#070;font-weight:bold">&lt;textarea</span> <span style="color:#b48">name</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">mtxMessage</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">cols</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">50</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">rows</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">3</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">maxlength</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">50</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-1334686185-vector-source-4'>    
+</span><span id='issues-trusted-severity-high-xss-1334686185-vector-source-5'>  <span style="color:#070;font-weight:bold">&lt;/textarea&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-1334686185-vector-source-6'>  <span style="color:#070;font-weight:bold">&lt;input</span> <span style="color:#b48">name</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">btnSign</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">type</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">submit</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">value</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Sign userbook</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">onclick</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#080;font-weight:bold">return</span> checkForm();<span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-1334686185-vector-source-7'>  <span style="color:#070;font-weight:bold">&lt;/input&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-1334686185-vector-source-8'><span style="color:#070;font-weight:bold">&lt;/form&gt;</span></span></pre></td></tr></tbody></table></div>
+
+<table class="table">
+    <tr>
+        <th>Type</th>
+        <th>In</th>
+        <th>Action</th>
+
+        
+        <th>Default inputs</th>
+        <th>Updated inputs</th>
+        
+    </tr>
+    <tr>
+        <td><code>form</code></td>
+        <td>
+            <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                http://192.168.1.113/test/index.php/attacks/xss_stored
+            </a>
+        </td>
+        <td>
+            <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                http://192.168.1.113/test/index.php/attacks/xss_stored
+            </a>
+        </td>
+
+        
+        <td>
+            <dl class="dl-horizontal">
+    
+        <dt>
+            <code>mtxMessage</code>
+        </dt>
+        <dd>
+            <code></code>
+        </dd>
+    
+        <dt>
+            <code>txtName</code>
+        </dt>
+        <dd>
+            <code></code>
+        </dd>
+    
+        <dt>
+            <code>btnSign</code>
+        </dt>
+        <dd>
+            <code>Sign userbook</code>
+        </dd>
+    
+</dl>
+
+        </td>
+        <td>
+            <dl class="dl-horizontal">
+    
+        <dt>
+            <code>mtxMessage</code>
+        </dt>
+        <dd>
+            <code>1()&quot;&amp;%1&#39;-;&lt;xss_f3c25f0c85a4531ce3162103ec1c4a4f/&gt;&#39;</code>
+        </dd>
+    
+        <dt>
+            <code>txtName</code>
+        </dt>
+        <dd>
+            <code>arachni_name</code>
+        </dd>
+    
+        <dt>
+            <code>btnSign</code>
+        </dt>
+        <dd>
+            <code>Sign userbook</code>
+        </dd>
+    
+</dl>
+
+        </td>
+        
+    </tr>
+</table>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#!/issues/trusted/severity/high/xss/1334686185/affected_page">
+                    <i class="fa fa-link"></i>
+                </a>
+
+                <a data-toggle="collapse" href="#issues-trusted-severity-high-xss-1334686185-affected_page">
+                    Affected page:
+
+                    <code>http://192.168.1.113/test/index.php/attacks/xss_stored</code>
+                </a>
+            </h4>
+        </div>
+        <div id="issues-trusted-severity-high-xss-1334686185-affected_page" class="panel-collapse collapse">
+            <div class="panel-body">
+                
+
+
+
+
+
+<div class="row">
+    <div class="col-md-6">
+        <strong>
+            <a
+            id="issues-trusted-severity-high-xss-1334686185-affected_page-http_request"
+            href="#!/issues/trusted/severity/high/xss/1334686185/affected_page/http_request">
+                HTTP request
+            </a>
+        </strong>
+
+        <p class="text-muted">
+            Raw HTTP request used to retrieve the page.
+        </p>
+
+        <pre class="code-container">POST /test/index.php/attacks/xss_stored HTTP/1.1
+Host: 192.168.1.113
+Accept-Encoding: gzip, deflate
+User-Agent: Arachni/v2.0dev
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.8,he;q=0.6
+X-Arachni-Scan-Seed: f3c25f0c85a4531ce3162103ec1c4a4f
+Cookie: ci_session=252c8f401a3682982a1d6921f9dd294f75a47e0a
+Content-Length: 128
+Content-Type: application/x-www-form-urlencoded
+
+mtxMessage=1%28%29%22%26%251%27-%3B%3Cxss_f3c25f0c85a4531ce3162103ec1c4a4f%2F%3E%27&amp;txtName=arachni_name&amp;btnSign=Sign%20userbook</pre>
+    </div>
+
+    <div class="col-md-6">
+        <strong>
+            <a
+            id="issues-trusted-severity-high-xss-1334686185-affected_page-http_response"
+            href="#!/issues/trusted/severity/high/xss/1334686185/affected_page/http_response">
+                HTTP response
+            </a>
+        </strong>
+
+        <p class="text-muted">
+            Raw HTTP response used as the page basis.
+
+            (Binary bodies will not be displayed.)
+        </p>
+
+        
+            <pre class="code-container">HTTP/1.1 500 Internal Server Error
+Date: Mon, 17 Oct 2016 20:40:25 GMT
+Server: Apache/2.4.23 (Unix) PHP/7.0.9 mod_perl/2.0.8-dev Perl/v5.16.3
+X-Powered-By: PHP/7.0.9
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 2101
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+&lt;h1&gt;XSS Stored Attack&lt;/h1&gt;
+&lt;form method=&quot;post&quot; name=&quot;guestform&quot; onsubmit=&quot;return validate_form(this)&quot;&gt;
+		&lt;table width=&quot;550&quot; border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;1&quot;&gt;
+		&lt;tr&gt;
+		&lt;td width=&quot;100&quot;&gt;Name *&lt;/td&gt; &lt;td&gt;
+		&lt;input name=&quot;txtName&quot; type=&quot;text&quot; size=&quot;30&quot; maxlength=&quot;10&quot;&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+		&lt;td width=&quot;100&quot;&gt;Message *&lt;/td&gt; &lt;td&gt;
+		&lt;textarea name=&quot;mtxMessage&quot; cols=&quot;50&quot; rows=&quot;3&quot; maxlength=&quot;50&quot;&gt;&lt;/textarea&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+		&lt;td width=&quot;100&quot;&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;td&gt;
+		&lt;input name=&quot;btnSign&quot; type=&quot;submit&quot; value=&quot;Sign userbook&quot; onClick=&quot;return checkForm();&quot;&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;/table&gt;
+		&lt;/form&gt;
+
+ &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Database Error&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div id=&quot;container&quot;&gt;
+		&lt;h1&gt;A Database Error Occurred&lt;/h1&gt;
+		&lt;p&gt;Error Number: 1064&lt;/p&gt;&lt;p&gt;You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near &#39;;<span class="issue-proof-highlight">&lt;xss_f3c25f0c85a4531ce3162103ec1c4a4f/&gt;</span>&#39;&#39;,&#39;arachni_name&#39;)&#39; at line 1&lt;/p&gt;&lt;p&gt;INSERT INTO userbook (message,name) VALUES (&#39;1()&quot;&amp;%1&#39;-;<span class="issue-proof-highlight">&lt;xss_f3c25f0c85a4531ce3162103ec1c4a4f/&gt;</span>&#39;&#39;,&#39;arachni_name&#39;);&lt;/p&gt;&lt;p&gt;Filename: views/xss_stored_view.php&lt;/p&gt;&lt;p&gt;Line Number: 34&lt;/p&gt;	&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+        
+    </div>
+</div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#!/issues/trusted/severity/high/xss/1334686185/referring_page">
+                    <i class="fa fa-link"></i>
+                </a>
+
+                <a data-toggle="collapse" href="#issues-trusted-severity-high-xss-1334686185-referring_page">
+                    Referring page:
+
+                    <code>http://192.168.1.113/test/index.php/attacks/xss_stored</code>
+                </a>
+            </h4>
+        </div>
+        <div id="issues-trusted-severity-high-xss-1334686185-referring_page" class="panel-collapse collapse">
+            <div class="panel-body">
+                
+
+
+
+
+
+<div class="row">
+    <div class="col-md-6">
+        <strong>
+            <a
+            id="issues-trusted-severity-high-xss-1334686185-referring_page-http_request"
+            href="#!/issues/trusted/severity/high/xss/1334686185/referring_page/http_request">
+                HTTP request
+            </a>
+        </strong>
+
+        <p class="text-muted">
+            Raw HTTP request used to retrieve the page.
+        </p>
+
+        <pre class="code-container">GET /test/index.php/attacks/xss_stored HTTP/1.1
+Host: 192.168.1.113
+Accept-Encoding: gzip, deflate
+User-Agent: Arachni/v2.0dev
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.8,he;q=0.6
+X-Arachni-Scan-Seed: f3c25f0c85a4531ce3162103ec1c4a4f
+
+</pre>
+    </div>
+
+    <div class="col-md-6">
+        <strong>
+            <a
+            id="issues-trusted-severity-high-xss-1334686185-referring_page-http_response"
+            href="#!/issues/trusted/severity/high/xss/1334686185/referring_page/http_response">
+                HTTP response
+            </a>
+        </strong>
+
+        <p class="text-muted">
+            Raw HTTP response used as the page basis.
+
+            (Binary bodies will not be displayed.)
+        </p>
+
+        
+            <pre class="code-container">HTTP/1.1 200 OK
+Date: Mon, 17 Oct 2016 20:40:25 GMT
+Server: Apache/2.4.23 (Unix) PHP/7.0.9 mod_perl/2.0.8-dev Perl/v5.16.3
+X-Powered-By: PHP/7.0.9
+Set-Cookie: ci_session=252c8f401a3682982a1d6921f9dd294f75a47e0a; expires=Mon, 17-Oct-2016 22:40:25 GMT; Max-Age=7200; path=/; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 593
+Content-Type: text/html; charset=UTF-8
+
+&lt;h1&gt;XSS Stored Attack&lt;/h1&gt;
+&lt;form method=&quot;post&quot; name=&quot;guestform&quot; onsubmit=&quot;return validate_form(this)&quot;&gt;
+		&lt;table width=&quot;550&quot; border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;1&quot;&gt;
+		&lt;tr&gt;
+		&lt;td width=&quot;100&quot;&gt;Name *&lt;/td&gt; &lt;td&gt;
+		&lt;input name=&quot;txtName&quot; type=&quot;text&quot; size=&quot;30&quot; maxlength=&quot;10&quot;&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+		&lt;td width=&quot;100&quot;&gt;Message *&lt;/td&gt; &lt;td&gt;
+		&lt;textarea name=&quot;mtxMessage&quot; cols=&quot;50&quot; rows=&quot;3&quot; maxlength=&quot;50&quot;&gt;&lt;/textarea&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+		&lt;td width=&quot;100&quot;&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;td&gt;
+		&lt;input name=&quot;btnSign&quot; type=&quot;submit&quot; value=&quot;Sign userbook&quot; onClick=&quot;return checkForm();&quot;&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;/table&gt;
+		&lt;/form&gt;
+
+ 
+
+
+</pre>
+        
+    </div>
+</div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+                
+                    <div id="issues-trusted-severity-high-xss-3786794387">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-info">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#!/issues/trusted/severity/high/xss/3786794387">
+                            In <code>form</code>
+
+                            
+                                input
+                                <code>txtName</code>
+                            
+
+                            
+                                using
+                                <code>POST</code>
+                            
+                        </a>
+
+                        at
+
+                        <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                            http://192.168.1.113/test/index.php/attacks/xss_stored
+                        </a>
+
+                        pointing to
+                        <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                            http://192.168.1.113/test/index.php/attacks/xss_stored
+                        </a>.
+                    </h4>
+                </div>
+
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            
+
+
+
+
+
+
+
+<table class="table table-condensed table-fixed">
+    <thead>
+    <tr>
+        
+            <th>
+                Injected seed
+
+                <a href="#" rel="tooltip"
+                   title="This seed uncovered the vulnerable vector during the audit.">
+                    <i class="fa fa-info"></i>
+                </a>
+            </th>
+        
+
+        
+
+        
+            <th>
+                Proof
+
+                <a href="#" rel="tooltip"
+                   title="This string was used to verify the existence of the issue.">
+                    <i class="fa fa-info"></i>
+                </a>
+            </th>
+        
+
+    </tr>
+    </thead>
+    <tr>
+
+        
+            <td class="wrap">
+                <pre>()&quot;&amp;%1&#39;-;&lt;xss_f3c25f0c85a4531ce3162103ec1c4a4f/&gt;&#39;</pre>
+            </td>
+        
+
+        
+
+        
+            <td class="wrap">
+                <pre class='code-container'>&lt;xss_f3c25f0c85a4531ce3162103ec1c4a4f/&gt;</pre>
+            </td>
+        
+    </tr>
+</table>
+
+
+                        </div>
+                    </div>
+
+                    <div class="panel-group">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#!/issues/trusted/severity/high/xss/3786794387/vector">
+                    <i class="fa fa-link"></i>
+                </a>
+
+                <a data-toggle="collapse" href="#issues-trusted-severity-high-xss-3786794387-vector">
+                    Vector information
+                </a>
+            </h4>
+        </div>
+        <div id="issues-trusted-severity-high-xss-3786794387-vector" class="panel-collapse collapse">
+            <div class="panel-body">
+                <div class="code-container"><table class="CodeRay"><tbody><tr><td class="line-numbers"><pre><a href='#!/issues/trusted/severity/high/xss/3786794387/vector/source/0'>0</a>
+<a href='#!/issues/trusted/severity/high/xss/3786794387/vector/source/1'>1</a>
+<a href='#!/issues/trusted/severity/high/xss/3786794387/vector/source/2'>2</a>
+<a href='#!/issues/trusted/severity/high/xss/3786794387/vector/source/3'>3</a>
+<a href='#!/issues/trusted/severity/high/xss/3786794387/vector/source/4'>4</a>
+<a href='#!/issues/trusted/severity/high/xss/3786794387/vector/source/5'>5</a>
+<a href='#!/issues/trusted/severity/high/xss/3786794387/vector/source/6'>6</a>
+<a href='#!/issues/trusted/severity/high/xss/3786794387/vector/source/7'>7</a>
+<a href='#!/issues/trusted/severity/high/xss/3786794387/vector/source/8'>8</a>
+</pre></td><td class="code"><pre><span id='issues-trusted-severity-high-xss-3786794387-vector-source-0'><span style="color:#070;font-weight:bold">&lt;form</span> <span style="color:#b48">method</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">post</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">name</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">guestform</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">onsubmit</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#080;font-weight:bold">return</span> validate_form(<span style="color:#950">this</span>)<span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-3786794387-vector-source-1'>  <span style="color:#070;font-weight:bold">&lt;input</span> <span style="color:#b48">name</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">txtName</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">type</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">text</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">size</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">30</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">maxlength</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">10</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-3786794387-vector-source-2'>  <span style="color:#070;font-weight:bold">&lt;/input&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-3786794387-vector-source-3'>  <span style="color:#070;font-weight:bold">&lt;textarea</span> <span style="color:#b48">name</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">mtxMessage</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">cols</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">50</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">rows</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">3</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">maxlength</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">50</span><span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-3786794387-vector-source-4'>    
+</span><span id='issues-trusted-severity-high-xss-3786794387-vector-source-5'>  <span style="color:#070;font-weight:bold">&lt;/textarea&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-3786794387-vector-source-6'>  <span style="color:#070;font-weight:bold">&lt;input</span> <span style="color:#b48">name</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">btnSign</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">type</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">submit</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">value</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#D20">Sign userbook</span><span style="color:#710">&quot;</span></span> <span style="color:#b48">onclick</span>=<span style="background-color:hsla(0,100%,50%,0.05)"><span style="color:#710">&quot;</span><span style="color:#080;font-weight:bold">return</span> checkForm();<span style="color:#710">&quot;</span></span><span style="color:#070;font-weight:bold">&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-3786794387-vector-source-7'>  <span style="color:#070;font-weight:bold">&lt;/input&gt;</span>
+</span><span id='issues-trusted-severity-high-xss-3786794387-vector-source-8'><span style="color:#070;font-weight:bold">&lt;/form&gt;</span></span></pre></td></tr></tbody></table></div>
+
+<table class="table">
+    <tr>
+        <th>Type</th>
+        <th>In</th>
+        <th>Action</th>
+
+        
+        <th>Default inputs</th>
+        <th>Updated inputs</th>
+        
+    </tr>
+    <tr>
+        <td><code>form</code></td>
+        <td>
+            <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                http://192.168.1.113/test/index.php/attacks/xss_stored
+            </a>
+        </td>
+        <td>
+            <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                http://192.168.1.113/test/index.php/attacks/xss_stored
+            </a>
+        </td>
+
+        
+        <td>
+            <dl class="dl-horizontal">
+    
+        <dt>
+            <code>mtxMessage</code>
+        </dt>
+        <dd>
+            <code></code>
+        </dd>
+    
+        <dt>
+            <code>txtName</code>
+        </dt>
+        <dd>
+            <code></code>
+        </dd>
+    
+        <dt>
+            <code>btnSign</code>
+        </dt>
+        <dd>
+            <code>Sign userbook</code>
+        </dd>
+    
+</dl>
+
+        </td>
+        <td>
+            <dl class="dl-horizontal">
+    
+        <dt>
+            <code>mtxMessage</code>
+        </dt>
+        <dd>
+            <code>1</code>
+        </dd>
+    
+        <dt>
+            <code>txtName</code>
+        </dt>
+        <dd>
+            <code>arachni_name()&quot;&amp;%1&#39;-;&lt;xss_f3c25f0c85a4531ce3162103ec1c4a4f/&gt;&#39;</code>
+        </dd>
+    
+        <dt>
+            <code>btnSign</code>
+        </dt>
+        <dd>
+            <code>Sign userbook</code>
+        </dd>
+    
+</dl>
+
+        </td>
+        
+    </tr>
+</table>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#!/issues/trusted/severity/high/xss/3786794387/affected_page">
+                    <i class="fa fa-link"></i>
+                </a>
+
+                <a data-toggle="collapse" href="#issues-trusted-severity-high-xss-3786794387-affected_page">
+                    Affected page:
+
+                    <code>http://192.168.1.113/test/index.php/attacks/xss_stored</code>
+                </a>
+            </h4>
+        </div>
+        <div id="issues-trusted-severity-high-xss-3786794387-affected_page" class="panel-collapse collapse">
+            <div class="panel-body">
+                
+
+
+
+
+
+<div class="row">
+    <div class="col-md-6">
+        <strong>
+            <a
+            id="issues-trusted-severity-high-xss-3786794387-affected_page-http_request"
+            href="#!/issues/trusted/severity/high/xss/3786794387/affected_page/http_request">
+                HTTP request
+            </a>
+        </strong>
+
+        <p class="text-muted">
+            Raw HTTP request used to retrieve the page.
+        </p>
+
+        <pre class="code-container">POST /test/index.php/attacks/xss_stored HTTP/1.1
+Host: 192.168.1.113
+Accept-Encoding: gzip, deflate
+User-Agent: Arachni/v2.0dev
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.8,he;q=0.6
+X-Arachni-Scan-Seed: f3c25f0c85a4531ce3162103ec1c4a4f
+Cookie: ci_session=252c8f401a3682982a1d6921f9dd294f75a47e0a
+Content-Length: 128
+Content-Type: application/x-www-form-urlencoded
+
+mtxMessage=1&amp;txtName=arachni_name%28%29%22%26%251%27-%3B%3Cxss_f3c25f0c85a4531ce3162103ec1c4a4f%2F%3E%27&amp;btnSign=Sign%20userbook</pre>
+    </div>
+
+    <div class="col-md-6">
+        <strong>
+            <a
+            id="issues-trusted-severity-high-xss-3786794387-affected_page-http_response"
+            href="#!/issues/trusted/severity/high/xss/3786794387/affected_page/http_response">
+                HTTP response
+            </a>
+        </strong>
+
+        <p class="text-muted">
+            Raw HTTP response used as the page basis.
+
+            (Binary bodies will not be displayed.)
+        </p>
+
+        
+            <pre class="code-container">HTTP/1.1 500 Internal Server Error
+Date: Mon, 17 Oct 2016 20:40:25 GMT
+Server: Apache/2.4.23 (Unix) PHP/7.0.9 mod_perl/2.0.8-dev Perl/v5.16.3
+X-Powered-By: PHP/7.0.9
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 2086
+Connection: close
+Content-Type: text/html; charset=UTF-8
+
+&lt;h1&gt;XSS Stored Attack&lt;/h1&gt;
+&lt;form method=&quot;post&quot; name=&quot;guestform&quot; onsubmit=&quot;return validate_form(this)&quot;&gt;
+		&lt;table width=&quot;550&quot; border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;1&quot;&gt;
+		&lt;tr&gt;
+		&lt;td width=&quot;100&quot;&gt;Name *&lt;/td&gt; &lt;td&gt;
+		&lt;input name=&quot;txtName&quot; type=&quot;text&quot; size=&quot;30&quot; maxlength=&quot;10&quot;&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+		&lt;td width=&quot;100&quot;&gt;Message *&lt;/td&gt; &lt;td&gt;
+		&lt;textarea name=&quot;mtxMessage&quot; cols=&quot;50&quot; rows=&quot;3&quot; maxlength=&quot;50&quot;&gt;&lt;/textarea&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+		&lt;td width=&quot;100&quot;&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;td&gt;
+		&lt;input name=&quot;btnSign&quot; type=&quot;submit&quot; value=&quot;Sign userbook&quot; onClick=&quot;return checkForm();&quot;&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;/table&gt;
+		&lt;/form&gt;
+
+ &lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+&lt;meta charset=&quot;utf-8&quot;&gt;
+&lt;title&gt;Database Error&lt;/title&gt;
+&lt;style type=&quot;text/css&quot;&gt;
+
+::selection { background-color: #E13300; color: white; }
+::-moz-selection { background-color: #E13300; color: white; }
+
+body {
+	background-color: #fff;
+	margin: 40px;
+	font: 13px/20px normal Helvetica, Arial, sans-serif;
+	color: #4F5155;
+}
+
+a {
+	color: #003399;
+	background-color: transparent;
+	font-weight: normal;
+}
+
+h1 {
+	color: #444;
+	background-color: transparent;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 19px;
+	font-weight: normal;
+	margin: 0 0 14px 0;
+	padding: 14px 15px 10px 15px;
+}
+
+code {
+	font-family: Consolas, Monaco, Courier New, Courier, monospace;
+	font-size: 12px;
+	background-color: #f9f9f9;
+	border: 1px solid #D0D0D0;
+	color: #002166;
+	display: block;
+	margin: 14px 0 14px 0;
+	padding: 12px 10px 12px 10px;
+}
+
+#container {
+	margin: 10px;
+	border: 1px solid #D0D0D0;
+	box-shadow: 0 0 8px #D0D0D0;
+}
+
+p {
+	margin: 12px 15px 12px 15px;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+	&lt;div id=&quot;container&quot;&gt;
+		&lt;h1&gt;A Database Error Occurred&lt;/h1&gt;
+		&lt;p&gt;Error Number: 1064&lt;/p&gt;&lt;p&gt;You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near &#39;;<span class="issue-proof-highlight">&lt;xss_f3c25f0c85a4531ce3162103ec1c4a4f/&gt;</span>&#39;&#39;)&#39; at line 1&lt;/p&gt;&lt;p&gt;INSERT INTO userbook (message,name) VALUES (&#39;1&#39;,&#39;arachni_name()&quot;&amp;%1&#39;-;<span class="issue-proof-highlight">&lt;xss_f3c25f0c85a4531ce3162103ec1c4a4f/&gt;</span>&#39;&#39;);&lt;/p&gt;&lt;p&gt;Filename: views/xss_stored_view.php&lt;/p&gt;&lt;p&gt;Line Number: 34&lt;/p&gt;	&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</pre>
+        
+    </div>
+</div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h4 class="panel-title">
+                <a href="#!/issues/trusted/severity/high/xss/3786794387/referring_page">
+                    <i class="fa fa-link"></i>
+                </a>
+
+                <a data-toggle="collapse" href="#issues-trusted-severity-high-xss-3786794387-referring_page">
+                    Referring page:
+
+                    <code>http://192.168.1.113/test/index.php/attacks/xss_stored</code>
+                </a>
+            </h4>
+        </div>
+        <div id="issues-trusted-severity-high-xss-3786794387-referring_page" class="panel-collapse collapse">
+            <div class="panel-body">
+                
+
+
+
+
+
+<div class="row">
+    <div class="col-md-6">
+        <strong>
+            <a
+            id="issues-trusted-severity-high-xss-3786794387-referring_page-http_request"
+            href="#!/issues/trusted/severity/high/xss/3786794387/referring_page/http_request">
+                HTTP request
+            </a>
+        </strong>
+
+        <p class="text-muted">
+            Raw HTTP request used to retrieve the page.
+        </p>
+
+        <pre class="code-container">GET /test/index.php/attacks/xss_stored HTTP/1.1
+Host: 192.168.1.113
+Accept-Encoding: gzip, deflate
+User-Agent: Arachni/v2.0dev
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.8,he;q=0.6
+X-Arachni-Scan-Seed: f3c25f0c85a4531ce3162103ec1c4a4f
+
+</pre>
+    </div>
+
+    <div class="col-md-6">
+        <strong>
+            <a
+            id="issues-trusted-severity-high-xss-3786794387-referring_page-http_response"
+            href="#!/issues/trusted/severity/high/xss/3786794387/referring_page/http_response">
+                HTTP response
+            </a>
+        </strong>
+
+        <p class="text-muted">
+            Raw HTTP response used as the page basis.
+
+            (Binary bodies will not be displayed.)
+        </p>
+
+        
+            <pre class="code-container">HTTP/1.1 200 OK
+Date: Mon, 17 Oct 2016 20:40:25 GMT
+Server: Apache/2.4.23 (Unix) PHP/7.0.9 mod_perl/2.0.8-dev Perl/v5.16.3
+X-Powered-By: PHP/7.0.9
+Set-Cookie: ci_session=252c8f401a3682982a1d6921f9dd294f75a47e0a; expires=Mon, 17-Oct-2016 22:40:25 GMT; Max-Age=7200; path=/; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Content-Length: 593
+Content-Type: text/html; charset=UTF-8
+
+&lt;h1&gt;XSS Stored Attack&lt;/h1&gt;
+&lt;form method=&quot;post&quot; name=&quot;guestform&quot; onsubmit=&quot;return validate_form(this)&quot;&gt;
+		&lt;table width=&quot;550&quot; border=&quot;0&quot; cellpadding=&quot;2&quot; cellspacing=&quot;1&quot;&gt;
+		&lt;tr&gt;
+		&lt;td width=&quot;100&quot;&gt;Name *&lt;/td&gt; &lt;td&gt;
+		&lt;input name=&quot;txtName&quot; type=&quot;text&quot; size=&quot;30&quot; maxlength=&quot;10&quot;&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+		&lt;td width=&quot;100&quot;&gt;Message *&lt;/td&gt; &lt;td&gt;
+		&lt;textarea name=&quot;mtxMessage&quot; cols=&quot;50&quot; rows=&quot;3&quot; maxlength=&quot;50&quot;&gt;&lt;/textarea&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+		&lt;td width=&quot;100&quot;&gt;&amp;nbsp;&lt;/td&gt;
+		&lt;td&gt;
+		&lt;input name=&quot;btnSign&quot; type=&quot;submit&quot; value=&quot;Sign userbook&quot; onClick=&quot;return checkForm();&quot;&gt;&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;/table&gt;
+		&lt;/form&gt;
+
+ 
+
+
+</pre>
+        
+    </div>
+</div>
+
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+                
+            
+        </div>
+    
+</div>
+
+    </div>
+    
+
+    
+</div>
+
+        </div>
+        
+
+        
+        <div class="tab-pane" id="plugins">
+            <h2>Plugin results</h2>
+
+<div id="plugin-tabs">
+    <ul class="nav nav-tabs">
+        
+            <li class="active" >
+                <a href="#!/plugins/healthmap">
+                    Health map
+                </a>
+            </li>
+        
+    </ul>
+
+    <div class="tab-content">
+    
+        <div class="tab-pane active"
+             id="plugins-healthmap">
+
+            <div class="plugin-description markdown">
+                <p>Generates a simple list of safe/unsafe URLs.</p>
+
+            </div>
+
+            <div class="plugin-results">
+                            <style type="text/css">
+                a.without_issues {
+                    color: blue;
+                }
+                a.with_issues {
+                    color: red;
+                }
+            </style>
+
+            <div class="row">
+                <div class="col-md-2">
+                    <dl class="dl-horizontal">
+                        <dt>
+                            Total
+                        </dt>
+                        <dd>
+                            1
+                        </dd>
+
+                        <dt>
+                            Without issues
+                        </dt>
+                        <dd>
+                            0
+                        </dd>
+
+                        <dt>
+                            With issues
+                        </dt>
+                        <dd>
+                            1
+                        </dd>
+
+                        <dt>
+                            Issue percentage
+                        </dt>
+                        <dd>
+                            100
+                        </dd>
+                    </dl>
+                </div>
+
+                <div class="col-md-10">
+                    <ul class="list-unstyled">
+                    
+
+                        <li>
+                            <a class="text-danger"
+                                href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                                http://192.168.1.113/test/index.php/attacks/xss_stored
+                            </a>
+                        </li>
+                    
+
+                    </ul>
+                </div>
+            </div>
+
+            </div>
+        </div>
+    
+    </div>
+
+</div>
+
+        </div>
+        
+
+        <div class="tab-pane" id="sitemap">
+            <h2>
+    <a href="#!/sitemap">
+        Sitemap
+
+        <span class="badge">1</span>
+    </a>
+</h2>
+
+<div id="sitemap">
+
+    <table class="table table-condensed">
+        <tr>
+            <th>HTTP status code</th>
+            <th>URL</th>
+        </tr>
+
+        
+            <tr>
+                <th>200</th>
+                <td>
+                    <a href="http://192.168.1.113/test/index.php/attacks/xss_stored">
+                        http://192.168.1.113/test/index.php/attacks/xss_stored
+                    </a>
+                </td>
+            </tr>
+        
+    </table>
+
+</div>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>

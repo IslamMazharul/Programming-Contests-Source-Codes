@@ -1,0 +1,3577 @@
+run:
+---Parsing-----Data/Training/3d_Printer.xml
+Parsing file ->Data/Training/3d_Printer.xml
+---Parsing-----Data/Training/Coffee.xml
+Parsing file ->Data/Training/Coffee.xml
+---Parsing-----Data/Training/Arduino.xml
+Parsing file ->Data/Training/Arduino.xml
+---Parsing-----Data/Training/Anime.xml
+Parsing file ->Data/Training/Anime.xml
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+8.0 12.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+9.0 21.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+10.0 30.0
+0.25
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+10.0 10.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+10.0 20.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+10.0 30.0
+0.25
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+12.0 8.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+12.0 18.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+12.0 28.0
+0.3
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+12.0 8.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+13.0 17.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+13.0 27.0
+0.325
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+11.0 9.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+12.0 18.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+12.0 28.0
+0.3
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+14.0 16.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+14.0 26.0
+0.35
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+12.0 8.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+13.0 17.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+13.0 27.0
+0.325
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+15.0 15.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+15.0 25.0
+0.375
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+15.0 15.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+15.0 25.0
+0.375
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+14.0 16.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+14.0 26.0
+0.35
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+14.0 16.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+14.0 26.0
+0.35
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+13.0 17.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+13.0 27.0
+0.325
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+14.0 16.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+14.0 26.0
+0.35
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+17.0 13.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+18.0 22.0
+0.45
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+16.0 14.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+16.0 24.0
+0.4
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+18.0 22.0
+0.45
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+17.0 13.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+18.0 22.0
+0.45
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+16.0 14.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+17.0 23.0
+0.425
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+16.0 14.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+17.0 23.0
+0.425
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+17.0 13.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+18.0 22.0
+0.45
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+18.0 22.0
+0.45
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+18.0 22.0
+0.45
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+17.0 13.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+18.0 22.0
+0.45
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+17.0 13.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+17.0 23.0
+0.425
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+18.0 22.0
+0.45
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+16.0 14.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+16.0 24.0
+0.4
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+17.0 13.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+17.0 23.0
+0.425
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+16.0 14.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+16.0 24.0
+0.4
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+15.0 15.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+15.0 25.0
+0.375
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+15.0 15.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+15.0 25.0
+0.375
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+14.0 16.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+14.0 26.0
+0.35
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+16.0 14.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+16.0 24.0
+0.4
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+15.0 15.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+15.0 25.0
+0.375
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+15.0 15.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+15.0 25.0
+0.375
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+15.0 15.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+15.0 25.0
+0.375
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+17.0 13.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+17.0 23.0
+0.425
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+14.0 16.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+14.0 26.0
+0.35
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+16.0 14.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+16.0 24.0
+0.4
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+14.0 16.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+14.0 26.0
+0.35
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+17.0 13.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+17.0 23.0
+0.425
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+14.0 16.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+14.0 26.0
+0.35
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+16.0 14.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+16.0 24.0
+0.4
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+13.0 17.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+13.0 27.0
+0.325
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+14.0 16.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+14.0 26.0
+0.35
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+15.0 15.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+15.0 25.0
+0.375
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+15.0 15.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+15.0 25.0
+0.375
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+16.0 14.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+16.0 24.0
+0.4
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+16.0 14.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+16.0 24.0
+0.4
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+16.0 14.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+16.0 24.0
+0.4
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+17.0 13.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+17.0 23.0
+0.425
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+17.0 13.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+17.0 23.0
+0.425
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+17.0 13.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+17.0 23.0
+0.425
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+16.0 14.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+16.0 24.0
+0.4
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+16.0 14.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+16.0 24.0
+0.4
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+17.0 13.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+17.0 23.0
+0.425
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+18.0 22.0
+0.45
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+18.0 22.0
+0.45
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+19.0 1.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+24.0 6.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+25.0 15.0
+0.625
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+24.0 6.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+25.0 15.0
+0.625
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+26.0 4.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+26.0 14.0
+0.65
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+19.0 1.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+25.0 5.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+25.0 15.0
+0.625
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+19.0 1.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+25.0 5.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+25.0 15.0
+0.625
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+19.0 1.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+24.0 6.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+24.0 6.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+24.0 6.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+23.0 17.0
+0.575
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+26.0 4.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+26.0 14.0
+0.65
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+24.0 6.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+24.0 6.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+24.0 6.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+25.0 15.0
+0.625
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+23.0 17.0
+0.575
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+24.0 6.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+25.0 15.0
+0.625
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+24.0 6.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+25.0 15.0
+0.625
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+24.0 6.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+25.0 15.0
+0.625
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+24.0 6.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+26.0 14.0
+0.65
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+25.0 15.0
+0.625
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+25.0 15.0
+0.625
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+25.0 15.0
+0.625
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+25.0 15.0
+0.625
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+25.0 5.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+28.0 12.0
+0.7
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+12.0 8.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+13.0 17.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+15.0 25.0
+0.375
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+12.0 8.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+13.0 17.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+14.0 26.0
+0.35
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+17.0 13.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+17.0 23.0
+0.425
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+18.0 22.0
+0.45
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+23.0 17.0
+0.575
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+23.0 17.0
+0.575
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+23.0 17.0
+0.575
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+23.0 17.0
+0.575
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+23.0 17.0
+0.575
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+3.0 7.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+3.0 7.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+3.0 7.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+19.0 21.0
+0.475
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+4.0 6.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+12.0 8.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+18.0 22.0
+0.45
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+19.0 11.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+12.0 8.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+18.0 12.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+18.0 22.0
+0.45
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+21.0 19.0
+0.525
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+13.0 7.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+20.0 10.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+20.0 20.0
+0.5
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+23.0 17.0
+0.575
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+22.0 18.0
+0.55
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+23.0 17.0
+0.575
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+24.0 16.0
+0.6
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+5.0 5.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+14.0 6.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+21.0 9.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+25.0 15.0
+0.625
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+22.0 8.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+26.0 14.0
+0.65
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+28.0 12.0
+0.7
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+23.0 7.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+29.0 11.0
+0.725
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+25.0 5.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+31.0 9.0
+0.775
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+15.0 5.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+24.0 6.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+30.0 10.0
+0.75
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+6.0 4.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+26.0 4.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+32.0 8.0
+0.8
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+16.0 4.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+26.0 4.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+32.0 8.0
+0.8
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+27.0 3.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+33.0 7.0
+0.825
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+27.0 3.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+33.0 7.0
+0.825
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+26.0 4.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+33.0 7.0
+0.825
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+27.0 3.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+34.0 6.0
+0.85
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+27.0 3.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+34.0 6.0
+0.85
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+27.0 3.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+34.0 6.0
+0.85
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+27.0 3.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+34.0 6.0
+0.85
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+28.0 2.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+35.0 5.0
+0.875
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+28.0 2.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+35.0 5.0
+0.875
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+27.0 3.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+35.0 5.0
+0.875
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+27.0 3.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+35.0 5.0
+0.875
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+7.0 3.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+17.0 3.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+27.0 3.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+35.0 5.0
+0.875
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+28.0 2.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+36.0 4.0
+0.9
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+28.0 2.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+36.0 4.0
+0.9
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+28.0 2.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+36.0 4.0
+0.9
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+28.0 2.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+36.0 4.0
+0.9
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+28.0 2.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+36.0 4.0
+0.9
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+28.0 2.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+36.0 4.0
+0.9
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+28.0 2.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+36.0 4.0
+0.9
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+28.0 2.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+36.0 4.0
+0.9
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+28.0 2.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+36.0 4.0
+0.9
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+28.0 2.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+36.0 4.0
+0.9
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+8.0 2.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+18.0 2.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+28.0 2.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+36.0 4.0
+0.9
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+19.0 1.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+29.0 1.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+37.0 3.0
+0.925
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+19.0 1.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+29.0 1.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+37.0 3.0
+0.925
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+19.0 1.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+29.0 1.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+37.0 3.0
+0.925
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+38.0 2.0
+0.95
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+19.0 1.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+29.0 1.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+37.0 3.0
+0.925
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+19.0 1.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+29.0 1.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+37.0 3.0
+0.925
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+19.0 1.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+29.0 1.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+37.0 3.0
+0.925
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+38.0 2.0
+0.95
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+38.0 2.0
+0.95
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+38.0 2.0
+0.95
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+9.0 1.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+19.0 1.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+29.0 1.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+37.0 3.0
+0.925
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+38.0 2.0
+0.95
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+38.0 2.0
+0.95
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+38.0 2.0
+0.95
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+38.0 2.0
+0.95
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+39.0 1.0
+0.975
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+39.0 1.0
+0.975
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+39.0 1.0
+0.975
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+39.0 1.0
+0.975
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+39.0 1.0
+0.975
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+39.0 1.0
+0.975
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+39.0 1.0
+0.975
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!
+39.0 1.0
+0.975
+YES
+Parsing file ->Data/Test/3d_Printer.xml
+parsing done!!!!!
+10.0 0.0
+Parsing file ->Data/Test/Coffee.xml
+parsing done!!!!!
+20.0 0.0
+Parsing file ->Data/Test/Arduino.xml
+parsing done!!!!!
+30.0 0.0
+Parsing file ->Data/Test/Anime.xml
+parsing done!!!!!

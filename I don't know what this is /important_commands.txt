@@ -1,0 +1,36 @@
+////////////////////////////////////////////////////Arachni/////////////////////////////////////////////////////////
+
+arachni --output-verbose --scope-include-subdomains http://example.com --report-save-path=example.com.afr
+arachni_reporter example.com.afr --reporter=html:outfile=my_report.html.zip     #to save the report
+arachni http://example.net --checks=xss* #To load all xss checks using a wildcard:
+arachni http://example.net --checks=*,-csrf #To exclude only the csrf check:
+
+
+--output-debug=4
+////////////////////////////////////////////////////Server//////////////////////////////////////////////////////////    
+
+netstat -a
+
+
+
+
+
+//////////////////////////////////////////////////Git Commands///////////////////////////////////////////////////////////
+
+git init
+git config --global user.name "Thesis"
+git config --global user.email 
+git config --list
+git add -A
+git status
+git commit -m ""
+git checkout -f // to go back
+git  remote add origin git@github.com:*.git 
+git remote -v 
+git push -u origin master
+
+
+
+//////////////////////////////////////////////////How to stop mysql and apache server
+sudo /etc/init.d/mysql start
+sudo /etc/init.d/mysql stop
