@@ -7,8 +7,8 @@ int main(void){
     int R =100 ;
     int C=100 ;
     cout<<"100 80"<<endl ;
-    cout<<"50"<<endl ;
-    rep(i,0,10){
+    cout<<"100"<<endl ;
+    rep(i,0,100){
             cout<<rand()%(C+1)<<" "<<rand()%(R+1)<<" "<<rand()%5<<endl ;
     }
     rep(i,0,3){

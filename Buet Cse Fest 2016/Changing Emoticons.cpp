@@ -11,7 +11,7 @@ int main(void){
         res="" ;
         getline(cin,str) ;
         // cout<<str<<endl ;
-        for(int i=0;i<str.size()-2;i++){
+        for(int i=0;i<(int)str.size()-2;i++){
             if(str[i]==':' && str[i+1]=='-' && str[i+2]=='('){
                     res+="dukkher bepar";
                     i+=2 ;

@@ -102,8 +102,8 @@ int valid(int r,int c){
 }
 
 int main(void){
-    ios_base::sync_with_stdio(0) ; cin.tie(0);
-    read() ;
+  //  ios_base::sync_with_stdio(0) ; cin.tie(0);
+ //  read() ;
     int testcases ,x,y,cx,cy,caseno=1;
     cin>>testcases ;
    // cout<<testcases<<endl ;
