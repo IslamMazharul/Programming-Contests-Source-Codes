@@ -12,7 +12,7 @@ using namespace std;
 #define write(x) freopen(x,"w",stdout);
 inline void read() {
 #ifdef Mazharul
-    freopen("in.in","r",stdin) ;
+    freopen("input.in","r",stdin) ;
 #endif
 }
 
@@ -84,8 +84,8 @@ ostream &operator << ( ostream & os, const map< F, S > &v ) {
 
 #define deb(x) cerr << #x << " = " << x << endl;
 #define MAXN 10000
-bool vis[MAXN][MAXN],DP[MAXN][MAXN];
-int R,C ,N,pos[MAXN][3];
+bool vis[MAXN+7][MAXN+7],DP[MAXN+7][MAXN+7];
+int R,C ,N,pos[MAXN+7][3];
 Long sqr_distance(int i,int j,int k,int l){
 
      Long dx = (i-k) ;
@@ -104,8 +104,8 @@ int valid(int r,int c){
 int main(void){
   //  ios_base::sync_with_stdio(0) ; cin.tie(0);
  //  read() ;
-    freopen("in.in","r",stdin) ;
-    freopen("out1.txt","w",stdout) ;
+  //  freopen("input.in","r",stdin) ;
+   // freopen("out1.txt","w",stdout) ;
     int testcases ,x,y,cx,cy,caseno=1;
     //cin>>testcases ;
     scanf("%d",&testcases) ;
